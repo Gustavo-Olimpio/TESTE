@@ -21,31 +21,31 @@
         <h1>Primeiro, seu prato</h1>
     </div>
     <div class="pratos principal">
-        <div class="boxprato prim" onclick="seleciona('.prim','.one','.principal')">
+        <div data-test="dish" class="boxprato prim" onclick="seleciona('.prim','.one','.principal')">
             <img src="imgs/comida.jpg">
             <div class="teste">
-            <h1 class="nome">Frango assado</h1>
+            <h1 data-test="item-name" class="nome">Frango assado</h1>
             <p>Um pouco de batata</p>
             <p>Um pouco de salada</p>
-            <h2>R$ <span class="preco">14,90</span> <ion-icon class="one" name="checkmark-circle-outline"></ion-icon></h2>
+            <h2 data-test="item-price">R$ <span class="preco">14,90</span> <ion-icon class="one" name="checkmark-circle-outline"></ion-icon></h2>
         </div>
         </div>
-        <div class="boxprato sec" onclick="seleciona('.sec','.two','.principal')">
+        <div data-test="dish" class="boxprato sec" onclick="seleciona('.sec','.two','.principal')">
             <img src="imgs/comida.jpg">
             <div class="teste">
-            <h1 class="nome">Frango frito</h1>
+            <h1 data-test="item-name" class="nome">Frango frito</h1>
             <p>Um pouco de batata</p>
             <p>Um pouco de salada</p>
-            <h2>R$ <span class="preco">15,90</span><ion-icon class="two" name="checkmark-circle-outline"></ion-icon></h2>
+            <h2 data-test="item-price">R$ <span class="preco">15,90</span><ion-icon class="two" name="checkmark-circle-outline"></ion-icon></h2>
             </div>
         </div>
-        <div class="boxprato terc" onclick="seleciona('.terc','.three','.principal')">
+        <div data-test="dish" class="boxprato terc" onclick="seleciona('.terc','.three','.principal')">
             <img src="imgs/comida.jpg">
             <div class="teste">
-            <h1 class="nome">Frango cozido</h1>
+            <h1 data-test="item-name" class="nome">Frango cozido</h1>
             <p>Um pouco de batata</p>
             <p>Um pouco de salada</p>
-            <h2>R$ <span class="preco">16,90</span><ion-icon class="three" name="checkmark-circle-outline"></ion-icon></h2>
+            <h2 data-test="item-price">R$ <span class="preco">16,90</span><ion-icon class="three" name="checkmark-circle-outline"></ion-icon></h2>
             </div>
         </div>
     </div>
@@ -53,68 +53,68 @@
         <h1>Agora, sua bebida</h1>
     </div>
     <div class="pratos bebida">
-        <div class="boxprato prim" onclick="seleciona('.prim','.one','.bebida')">
-            <img src="imgs/comida.jpg">
+        <div data-test="drink" class="boxprato prim" onclick="seleciona('.prim','.one','.bebida')">
+            <img src="imgs/chá.jpg">
             <div class="teste">
-            <h1 class="nome">Coca</h1>
+            <h1 data-test="item-name" class="nome">Coca</h1>
             <p>Um pouco de batata</p>
             <p>Um pouco de salada</p>
-            <h2>R$ <span class="preco">13,90</span> <ion-icon class="one" name="checkmark-circle-outline"></ion-icon></h2>
+            <h2 data-test="item-price">R$ <span class="preco">13,90</span> <ion-icon class="one" name="checkmark-circle-outline"></ion-icon></h2>
         </div>
         </div>
-        <div class="boxprato sec" onclick="seleciona('.sec','.two','.bebida')">
-            <img src="imgs/comida.jpg">
+        <div data-test="drink" class="boxprato sec" onclick="seleciona('.sec','.two','.bebida')">
+            <img src="imgs/chá.jpg">
             <div class="teste">
-            <h1 class="nome">Fanta</h1>
+            <h1 data-test="item-name" class="nome">Chá</h1>
             <p>Um pouco de batata</p>
             <p>Um pouco de salada</p>
-            <h2>R$ <span class="preco">12,90</span><ion-icon class="two" name="checkmark-circle-outline"></ion-icon></h2>
+            <h2 data-test="item-price">R$ <span class="preco">12,90</span><ion-icon class="two" name="checkmark-circle-outline"></ion-icon></h2>
             </div>
         </div>
-        <div class="boxprato terc" onclick="seleciona('.terc','.three','.bebida')">
-            <img src="imgs/comida.jpg">
+        <div data-test="drink" class="boxprato terc" onclick="seleciona('.terc','.three','.bebida')">
+            <img src="imgs/chá.jpg">
             <div class="teste">
-            <h1 class="nome">Pepsi</h1>
+            <h1 data-test="item-name" class="nome">Pepsi</h1>
             <p>Um pouco de batata</p>
             <p>Um pouco de salada</p>
-            <h2>R$ <span class="preco">11,90</span><ion-icon class="three" name="checkmark-circle-outline"></ion-icon></h2>
+            <h2 data-test="item-price">R$ <span class="preco">11,90</span><ion-icon class="three" name="checkmark-circle-outline"></ion-icon></h2>
             </div>
         </div>
     </div>
     <div class="conteudo">
         <h1>Por fim, sua sobremesa</h1>
     </div>
-    <div class="pratos sobremesa">
+    <div data-test="dessert" class="pratos sobremesa">
         <div class="boxprato prim" onclick="seleciona('.prim','.one','.sobremesa')">
-            <img src="imgs/comida.jpg">
+            <img src="imgs/pudim.jpg">
             <div class="teste">
-            <h1 class="nome">Pudim</h1>
+            <h1 data-test="item-name" class="nome">Pudim</h1>
             <p>Um pouco de batata</p>
             <p>Um pouco de salada</p>
-            <h2>R$ <span class="preco">4,90</span> <ion-icon class="one" name="checkmark-circle-outline"></ion-icon></h2>
+            <h2 data-test="item-price">R$ <span class="preco">4,90</span> <ion-icon class="one" name="checkmark-circle-outline"></ion-icon></h2>
         </div>
         </div>
-        <div class="boxprato sec" onclick="seleciona('.sec','.two','.sobremesa')">
-            <img src="imgs/comida.jpg">
+        <div data-test="dessert" class="boxprato sec" onclick="seleciona('.sec','.two','.sobremesa')">
+            <img src="imgs/pudim.jpg">
             <div class="teste">
-            <h1 class="nome">Bolo</h1>
+            <h1 data-test="item-name" class="nome">Bolo</h1>
             <p>Um pouco de batata</p>
             <p>Um pouco de salada</p>
-            <h2>R$ <span class="preco">3,90</span><ion-icon class="two" name="checkmark-circle-outline"></ion-icon></h2>
+            <h2 data-test="item-price">R$ <span class="preco">3,90</span><ion-icon class="two" name="checkmark-circle-outline"></ion-icon></h2>
             </div>
         </div>
-        <div class="boxprato terc" onclick="seleciona('.terc','.three','.sobremesa')">
-            <img src="imgs/comida.jpg">
+        <div data-test="dessert" class="boxprato terc" onclick="seleciona('.terc','.three','.sobremesa')">
+            <img src="imgs/pudim.jpg">
             <div class="teste">
-            <h1 class="nome">Sorvete</h1>
+            <h1 data-test="item-name" class="nome">Sorvete</h1>
             <p>Um pouco de batata</p>
             <p>Um pouco de salada</p>
-            <h2>R$ <span class="preco">2,90</span><ion-icon class="three" name="checkmark-circle-outline"></ion-icon></h2>
+            <h2 data-test="item-price">R$ <span class="preco">2,90</span><ion-icon class="three" name="checkmark-circle-outline"></ion-icon></h2>
             </div>
         </div>
     </div>
     <div class="fixobot">
-      <div  class="button" disable>
+      <div data-test="order-btn" class="button" disable>
         <p onclick="enviawpp()" class="txtbotao">Selecione os 3 itens <br>para fechar o pedido</p>
        
     </div>

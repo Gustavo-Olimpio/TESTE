@@ -79,7 +79,7 @@ function botaoverde(){
             minhastring = (`Olá, gostaria de fazer o pedido:\n- Prato: ${prato}\n-Bebida: ${bebida}\n- Sobremesa: ${sobremesa}\nTotal: R$ ${total}`)
             console.log(minhastring);
             console.log(encodeURIComponent(minhastring));
-            wpp = "https://wa.me/5511999031201?text="+encodeURIComponent(minhastring)
+            wpp = "https://wa.me/5511999999999?text="+encodeURIComponent(minhastring)
             window.open(wpp)
         }
     }
