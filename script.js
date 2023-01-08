@@ -68,7 +68,7 @@ function botaoverde(){
         console.log(pbc);
         console.log(ppc);
         console.log(total);
-        botao.removeAttribute("disable")
+        botao.removeAttribute("disabled")
     }
 }
     function enviawpp(){
